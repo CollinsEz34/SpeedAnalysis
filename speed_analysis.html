@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Analysis</title>
+</head>
+<body>
+    <h1>Speed Analysis</h1>
+    <label for="inputText">Type the following text:</label> <br>
+    <textarea name="message" id="inputType" rows="5"></textarea> <br>
+    <label for="userInput">Your typing:</label> <br>
+    <textarea name="usermessage" id="userInput"  cols="50" rows="5"></textarea> <br>
+    <button onclick="startTest()" class="btn btn-success">Start Test</button>
+    <button onclick="endTest()" id="btn" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">End test</button> <br>
+    <div id="output"></div>
+    <script src="./speed_analysis.js"></script>
+</body>
+</html>
